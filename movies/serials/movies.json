@@ -1,0 +1,546 @@
+[
+  {
+    "id": 1,
+    "title": "Istigfor",
+    "year": null,
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "36.75 MB",
+        "file_id": "BAACAgIAAxkBAAMKaaBupSgD1iVbMnGOwlC8WCyrnCUAAoMGAAI8tcBKCDNVzou_Ajw6BA"
+      },
+      {
+        "part": 2,
+        "size": "40.8 MB",
+        "file_id": "BAACAgIAAxkBAAMLaaBupZEr6RhyKdbqUaiPKkEhz1IAAhsJAAKsSsBK_5n34r3Gin86BA"
+      },
+      {
+        "part": 3,
+        "size": "34.06 MB",
+        "file_id": "BAACAgIAAxkBAAMMaaBupWM9gNxYQVvdLn7ngli1v40AAhoJAAKsSsBKFwHNk-dQbKw6BA"
+      },
+      {
+        "part": 4,
+        "size": "39.96 MB",
+        "file_id": "BAACAgIAAxkBAAMNaaBupTaaFEsZveTkXtIxoeaUyQ4AAhwJAAKsSsBKcteocFfyN8g6BA"
+      },
+      {
+        "part": 5,
+        "size": "36.18 MB",
+        "file_id": "BAACAgIAAxkBAAMOaaBupcRa2wNg-z0BGh74wSPfOlsAAh0JAAKsSsBKuHKhBALAwCE6BA"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Umar Muhtor. Sahro Arsloni",
+    "year": "1981",
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "99.23 MB",
+        "file_id": "BAACAgQAAxkBAANxaarE4aGkbaZzrPE1_AT_Te0UfBkAAgMuAALfEhlRtfbumZpAbfc6BA"
+      },
+      {
+        "part": 2,
+        "size": "115.63 MB",
+        "file_id": "BAACAgQAAxkBAANyaarE4a6EyFN8Pff5Z1Ys49C8wX0AAqUuAALfEhlRyiGENgsORfQ6BA"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Dunyoning Yaralishi",
+    "year": null,
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "377.27 MB",
+        "file_id": "BAACAgIAAxkBAAOGaarIQjoMLU_zC8cWatXYL2Tles0AAtsMAAL7z1BJT2PaDeSWSvU6BA"
+      },
+      {
+        "part": 2,
+        "size": "373.81 MB",
+        "file_id": "BAACAgIAAxkBAAOHaarIQgajFYFZMp5etipztXZMGFEAAvsFAALd93BIZ9hNx_RurFU6BA"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Nuh alayhissalom",
+    "year": null,
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "219.5 MB",
+        "file_id": "BAACAgIAAxkBAAOUaarLoffSyJZeiRgpdbpbw_gEw2oAAuoEAAJp7LlJ6I7DGx7Rygc6BA"
+      },
+      {
+        "part": 2,
+        "size": "207.59 MB",
+        "file_id": "BAACAgIAAxkBAAOVaarLoVVWYSmfukI9W2BB_gZ0dZ4AApgDAALAY_FLpzux3tc1ED46BA"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Bizni Kechiring",
+    "year": null,
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "107.98 MB",
+        "file_id": "BAACAgIAAxkBAAORaarLoUS6H2jUJxn-6Co_jzGeX28AAhQFAAKspDBKdwz9qpH9KGs6BA"
+      },
+      {
+        "part": 2,
+        "size": "105.71 MB",
+        "file_id": "BAACAgIAAxkBAAOSaarLoZXk6b9hLYCJ-TNBDkTXedAAAmgDAAKAjTBKVb4w--qKVcY6BA"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Bahlul Dono Hazratlari",
+    "year": null,
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "243.66 MB",
+        "file_id": "BAACAgIAAxkBAAOPaarLocHKcL3MthEP-ZlbWvLCIGwAAsMHAAI-ZZlIKP9NiIaseTM6BA"
+      },
+      {
+        "part": 2,
+        "size": "54.26 MB",
+        "file_id": "BAACAgIAAxkBAAOQaarLodCS75b6mFb84p4JzcTgXvIAAsUHAAI-ZZlIru0uLT75Sz46BA"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Hidoyat Yo'li (Fuzayl Ibn Iyoz)",
+    "year": null,
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "174.11 MB",
+        "file_id": "BAACAgIAAxkBAAOdaarOlwFEm9ZGxaQCZvCwQj4UK6IAAlwDAAKWtAhKhxrJWaNQous6BA"
+      },
+      {
+        "part": 2,
+        "size": "94.83 MB",
+        "file_id": "BAACAgIAAxkBAAOeaarOl9RoqPUDXKE6baWkO0mOkUYAArEDAAJUBBBKEzdfi8e0aik6BA"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Muhabbat Oyatlari",
+    "year": null,
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "228.15 MB",
+        "file_id": "BAACAgQAAxkBAAOgaarOl5X41Mnbu7561QdMk6MNSBkAAvICAAJKitBR48HT9LQWw2k6BA"
+      },
+      {
+        "part": 2,
+        "size": "419.17 MB",
+        "file_id": "BAACAgIAAxkBAAOhaarOl8Np2OnbGHiPPVxYfwTX2AUAApMGAALctMFIgoK30_bDflE6BA"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Siz yolg'iz emassiz",
+    "year": null,
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "46.83 MB",
+        "file_id": "BAACAgIAAxkBAAOoaarQI8yyA00rSJb2bF7NVfiXqLcAAi4JAAJx_CFIpreLoAJevwo6BA"
+      },
+      {
+        "part": 2,
+        "size": "33.22 MB",
+        "file_id": "BAACAgIAAxkBAAOpaarQI2Sk6JFNgLwQSXvVzI5C0SEAAjQJAAJx_CFIa55JfECOWtI6BA"
+      },
+      {
+        "part": 3,
+        "size": "16.58 MB",
+        "file_id": "BAACAgIAAxkBAAOqaarQI1y5b0Vx--fWttYd9ZzDd5gAAjcJAAJx_CFI7rxETNv01C86BA"
+      },
+      {
+        "part": 4,
+        "size": "54.04 MB",
+        "file_id": "BAACAgIAAxkBAAOraarQI1_IPby9Kss_kQwvVMtGQHEAAjwJAAJx_CFIU_Q_KUY3E9U6BA"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Mehmed - Jahon G'olibi",
+    "year": null,
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "356.67 MB",
+        "file_id": "BAACAgIAAxkBAAO2aarRHbnegdfVGsojUJdELvVnPU4AAr0MAAK1p8lJPtTAiIbFRMI6BA"
+      },
+      {
+        "part": 2,
+        "size": "384.57 MB",
+        "file_id": "BAACAgIAAxkBAAO3aarRHe_zTGu3gmRIs3EUg_x-hFsAAswLAAKNn9hJiwFQKkeMOV06BA"
+      },
+      {
+        "part": 3,
+        "size": "386.92 MB",
+        "file_id": "BAACAgIAAxkBAAO4aarRHS8i1QNQWKkP1lHqNO4LQFUAAlMMAAKEfAlKTdbKroW3YL06BA"
+      },
+      {
+        "part": 4,
+        "size": "397.32 MB",
+        "file_id": "BAACAgIAAxkBAAO5aarRHcJYvjA5OlD7QuAevW6crHQAApANAAKEfBFK1MES9UvmJg86BA"
+      },
+      {
+        "part": 5,
+        "size": "366.82 MB",
+        "file_id": "BAACAgIAAxkBAAO6aarRHVAlChNXiN7dr3IAAVAWuxpNAAI4DgAC49AYSm7qBOJbWyyzOgQ"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Minyalik Abdulloh",
+    "year": null,
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "313.42 MB",
+        "file_id": "BAACAgIAAxkBAAO_aarRHZlA1mIIcwcG-gMAAY0kqhudAAIBGQACxqhpShIwm_eg6SvtOgQ"
+      },
+      {
+        "part": 2,
+        "size": "161.95 MB",
+        "file_id": "BAACAgIAAxkBAAPAaarRHfTSZa-Kjt5dlptjj8HxvIAAAukkAAJKFQlKuMPrjKLIxmM6BA"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Buyuk Saljuqiylar",
+    "year": null,
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "1.3 GB",
+        "file_id": "BAACAgEAAxkBAAPgaarSX73ysdej55mvzWKmvWhP9fQAAkQDAALojwABRv-vkWQ1fp7JOgQ"
+      },
+      {
+        "part": 2,
+        "size": "489.2 MB",
+        "file_id": "BAACAgEAAxkBAAPhaarSX0aV40nkZVbUS15x7OOqLy4AAvwBAAKejhlGm0Ts5p27KfM6BA"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Xazrati Maryam",
+    "year": null,
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "179.23 MB",
+        "file_id": "BAACAgIAAxkBAAPcaarSX4dc4kSO9AuZBRGuiWOMdQgAAl8JAAKk1CFKmqemF3CtJ306BA"
+      },
+      {
+        "part": 2,
+        "size": "168.04 MB",
+        "file_id": "BAACAgIAAxkBAAPdaarSX6MCq-9mA-XkS8QMng9wa98AAlwJAAKk1CFKx4gc1GrqKZI6BA"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Alp Arslon",
+    "year": null,
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "391.19 MB",
+        "file_id": "BAACAgQAAxkBAAPvaarS4-F3FuSSVXnTypMivXYR6QQAAkgNAAKl6XhTVUXI8pTkLPU6BA"
+      },
+      {
+        "part": 2,
+        "size": "363.01 MB",
+        "file_id": "BAACAgQAAxkBAAPwaarS496aPB8tZorsiI0gnjC6froAAk0NAAKl6XhTqtpptDGCt6E6BA"
+      },
+      {
+        "part": 3,
+        "size": "602.17 MB",
+        "file_id": "BAACAgQAAxkBAAPxaarS49hre4EX31STxVMh6a7AJYkAAk8NAAKl6XhTCbPY_UaWClk6BA"
+      },
+      {
+        "part": 4,
+        "size": "372.92 MB",
+        "file_id": "BAACAgIAAxkBAAPyaarS4xsn-QSASOS3diY8-yCA-bgAAj8iAAJW0chLfU3r1WEVxAw6BA"
+      },
+      {
+        "part": 5,
+        "size": "367.37 MB",
+        "file_id": "BAACAgIAAxkBAAPzaarS4yj_2nKuso30wMSb_OK9yCQAAqQsAAIR2RhIjO2ueodM-rk6BA"
+      },
+      {
+        "part": 6,
+        "size": "1.01 GB",
+        "file_id": "BAACAgEAAxkBAAP0aarS41TyuKyrlmKyuww8wWcvTTQAAl0DAAKspGhEa_UoYywLtl06BA"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Barbaroslar",
+    "year": null,
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "1.2 GB",
+        "file_id": "BAACAgEAAxkBAAP1aarS4-sAAXswxGsvGNknIQ9SAAH7zgACFQQAAuCuyESsOB1sqUn7ZToE"
+      },
+      {
+        "part": 2,
+        "size": "635.06 MB",
+        "file_id": "BAACAgEAAxkBAAP2aarS4wGGjoFEsAbXY-QvELH63DsAAuECAAJtAfBEmZ9xi92Hjzk6BA"
+      },
+      {
+        "part": 3,
+        "size": "556.96 MB",
+        "file_id": "BAACAgEAAxkBAAP3aarS40I2aaq2MG7vRWuvRlSKjNAAAhUDAAJvzjlFZymX4nMiR486BA"
+      },
+      {
+        "part": 4,
+        "size": "518.8 MB",
+        "file_id": "BAACAgEAAxkBAAP4aarS45TC7jvqAAEJFieaKBZFfMAEAAI2AgACc4ppRW_2TZfLSUMdOgQ"
+      },
+      {
+        "part": 5,
+        "size": "551.79 MB",
+        "file_id": "BAACAgEAAxkBAAP8aarS45NjSPEg69QFknQi1nIYYSwAApoCAAKelIBFrA4P8-9J-oM6BA"
+      },
+      {
+        "part": 6,
+        "size": "547.82 MB",
+        "file_id": "BAACAgEAAxkBAAP5aarS4zM5XmtXxXoE6jv4FY8SaJIAAv0CAALRrrBFDIY-ay8rYp06BA"
+      },
+      {
+        "part": 7,
+        "size": "507.06 MB",
+        "file_id": "BAACAgEAAxkBAAP6aarS44QFMYNuVw7W_5hIy-I5i0oAAqYEAAJ9SQABRhs3M4a84omTOgQ"
+      },
+      {
+        "part": 8,
+        "size": "566.8 MB",
+        "file_id": "BAACAgEAAxkBAAP7aarS48WqbVses3W5NiGWUOHwKLIAAh8CAAI8mjBG20vY7H9EFYQ6BA"
+      },
+      {
+        "part": 9,
+        "size": "514.68 MB",
+        "file_id": "BAACAgEAAxkBAAP9aarS44gZZTFwXGm_uFcvx4ytVVgAAr4CAAKJNGBGafQhiUcbMVU6BA"
+      },
+      {
+        "part": 10,
+        "size": "557.19 MB",
+        "file_id": "BAACAgEAAxkBAAP-aarS44-P9ND-4wYNXYCJkMKZL_MAAm0CAALOm5FGFp3qAb5bjnM6BA"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Umar ibn Xattob",
+    "year": "2012",
+    "category": "Islomiy",
+    "language": "Uzbek tilida",
+    "parts": [
+      {
+        "part": 1,
+        "size": "52.49 MB",
+        "file_id": "BAACAgIAAxkBAAIBD2mq1BFGObBEYWY-LRzADQABdJoD4QACFgEAAtZcAUju8wQMRWQSBzoE"
+      },
+      {
+        "part": 2,
+        "size": "57.0 MB",
+        "file_id": "BAACAgIAAxkBAAIBEGmq1BFa_Y5fsUntCC6-sg9Xu1NtAAI5AQAC7uwAAUg0TMXfErFvvDoE"
+      },
+      {
+        "part": 3,
+        "size": "57.21 MB",
+        "file_id": "BAACAgIAAxkBAAIBEWmq1BHCCN4AAVgfjIWJsQdNnOjYzgACLgEAAlI2CEgppZX1RNn18zoE"
+      },
+      {
+        "part": 4,
+        "size": "44.84 MB",
+        "file_id": "BAACAgIAAxkBAAIBEmmq1BGVH3cy4wvS5yEGgZbCNOOLAAJKAgAC02UYSDV_PWfRNeT1OgQ"
+      },
+      {
+        "part": 5,
+        "size": "44.51 MB",
+        "file_id": "BAACAgIAAxkBAAIBE2mq1BHjm59xfyQW1z408t3frRwzAAK2AQACxUIgSDMErXWQDdKPOgQ"
+      },
+      {
+        "part": 6,
+        "size": "44.28 MB",
+        "file_id": "BAACAgIAAxkBAAIBFGmq1BF9k7QdvxTaxJ47eCZa9bDxAAL2AAPWoilIwrI2sar6g2I6BA"
+      },
+      {
+        "part": 7,
+        "size": "42.97 MB",
+        "file_id": "BAACAgIAAxkBAAIBFWmq1BHvzgjP_h4nxfqbbw009J9SAAJZAQACmYoxSPAqGXF4GqybOgQ"
+      },
+      {
+        "part": 8,
+        "size": "47.04 MB",
+        "file_id": "BAACAgIAAxkBAAIBFmmq1BHh70SnC4QU-zG9BLXCne2qAAKCAQACgg9ASJbn55KPUPvcOgQ"
+      },
+      {
+        "part": 9,
+        "size": "49.15 MB",
+        "file_id": "BAACAgIAAxkBAAIBF2mq1BELoqWv_Pb5Tz6Pu5zMkUs4AAJuAQACuJFJSArtKmUGFs3vOgQ"
+      },
+      {
+        "part": 10,
+        "size": "61.25 MB",
+        "file_id": "BAACAgIAAxkBAAIBGGmq1BEOZqpeAAG2ZhBBMG5Mpbg48gACTgIAAngaSUh3cVtEXPGf4ToE"
+      },
+      {
+        "part": 11,
+        "size": "54.69 MB",
+        "file_id": "BAACAgIAAxkBAAIBGWmq1BF3Z-YiLiTciZ_IY6NUYo7IAAKeAQACgO1hSDtphr1nChyNOgQ"
+      },
+      {
+        "part": 12,
+        "size": "48.5 MB",
+        "file_id": "BAACAgIAAxkBAAIBGmmq1BHouDrNWBLs6kVeUftxoLn-AAKbAQACBChpSI2144vmfsobOgQ"
+      },
+      {
+        "part": 13,
+        "size": "55.07 MB",
+        "file_id": "BAACAgIAAxkBAAIBG2mq1BFoP_Sm51tzEkIDnrxRIVwgAALzAQACHL55SLP2AgZR0NW0OgQ"
+      },
+      {
+        "part": 14,
+        "size": "48.35 MB",
+        "file_id": "BAACAgIAAxkBAAIBHGmq1BE0H2j4pMxU60RjnRwAAQ1FKAACsAIAAsVheUixdSWBstggODoE"
+      },
+      {
+        "part": 15,
+        "size": "52.25 MB",
+        "file_id": "BAACAgIAAxkBAAIBHWmq1BHga9kes2IYW-srOdIjP2zpAALrAQACQ7yJSNw0Fw-sVMujOgQ"
+      },
+      {
+        "part": 16,
+        "size": "53.2 MB",
+        "file_id": "BAACAgIAAxkBAAIBImmq1BEq8QQdwvXQX6Xe_gtCtEmEAALdAQACQ7yRSCXQLYGp2DabOgQ"
+      },
+      {
+        "part": 17,
+        "size": "43.77 MB",
+        "file_id": "BAACAgIAAxkBAAIBHmmq1BGmx5_pspoM3kVPEIoX9lxMAAKWAQAC5GugSMRzsgNVqQnaOgQ"
+      },
+      {
+        "part": 18,
+        "size": "52.37 MB",
+        "file_id": "BAACAgIAAxkBAAIBH2mq1BG-KlEl25sVs7dhrcJteTzNAAL-AgAC6aOgSHUly9lHU4mHOgQ"
+      },
+      {
+        "part": 19,
+        "size": "50.56 MB",
+        "file_id": "BAACAgIAAxkBAAIBIGmq1BEhFzT4fe0ENAZGk8o-JyyRAAInAQACVIiwSOPHSFqW2gdvOgQ"
+      },
+      {
+        "part": 20,
+        "size": "50.69 MB",
+        "file_id": "BAACAgIAAxkBAAIBIWmq1BE43bMHjfK0aXERcNYAAQHdfQACUAIAApA9wEiIaAgTtWullDoE"
+      },
+      {
+        "part": 21,
+        "size": "58.41 MB",
+        "file_id": "BAACAgIAAxkBAAIBI2mq1BFSYmlHqIZrJh4f336dDsEeAAIZAwACkD3ISLMQeKIZVZubOgQ"
+      },
+      {
+        "part": 22,
+        "size": "44.54 MB",
+        "file_id": "BAACAgIAAxkBAAIBJGmq1BHXinHKFV4U2wHoDcAQ3dpiAAInAgACYEnYSExF96p318hKOgQ"
+      },
+      {
+        "part": 23,
+        "size": "59.01 MB",
+        "file_id": "BAACAgIAAxkBAAIBJWmq1BHfHnVlAAHZS6NGqBHEtQT6MwAC6QIAAlBQ2Ei7oT8v1Y2OmToE"
+      },
+      {
+        "part": 24,
+        "size": "49.93 MB",
+        "file_id": "BAACAgIAAxkBAAIBJmmq1BGrGjcGJ_HINg7ZBJ1T7-5aAAK8AQACQTfxSItbFnNIWlBvOgQ"
+      },
+      {
+        "part": 25,
+        "size": "55.37 MB",
+        "file_id": "BAACAgIAAxkBAAIBJ2mq1BEBM6Uc4MZW6g7b0bHxm00bAAIEAgACmAz5SALpDOcScBPqOgQ"
+      },
+      {
+        "part": 26,
+        "size": "46.37 MB",
+        "file_id": "BAACAgIAAxkBAAIBKGmq1BGkHFHli--F-yl2LMWO4UySAALHAQACmAwBSS_G4vCvnr-eOgQ"
+      },
+      {
+        "part": 27,
+        "size": "64.14 MB",
+        "file_id": "BAACAgIAAxkBAAIBKWmq1BHzWoncfJkaZzEmaxNoGAaYAAL1AQACtz4ISeR3HQqmUKxEOgQ"
+      },
+      {
+        "part": 28,
+        "size": "56.98 MB",
+        "file_id": "BAACAgIAAxkBAAIBKmmq1BESRXkTTOJrCk_bILpm4_iWAAK7AQAC7k0RSVP__Kr0RvHDOgQ"
+      },
+      {
+        "part": 29,
+        "size": "46.01 MB",
+        "file_id": "BAACAgIAAxkBAAIBLGmq1BH_RHLYUyRTYq2e3nXwYZgAAygCAAIGOjBJOmOd6eICsu06BA"
+      },
+      {
+        "part": 30,
+        "size": "99.57 MB",
+        "file_id": "BAACAgIAAxkBAAIBK2mq1BHaaT39XRM4dDIq1lStoZb2AAIqAgACBjowSUCoGB-tRWRbOgQ"
+      }
+    ]
+  }
+]

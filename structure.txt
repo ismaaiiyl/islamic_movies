@@ -1,0 +1,16 @@
+islomiy-kino-bot/
+├── app.py              # Main entry point (FastAPI + aiogram)
+├── config.py           # Config loader (BOT_TOKEN)
+├── keyboards.py        # Reply/Inline keyboards creators
+├── services.py         # Data loading and business logic
+├── banner.png          # Visual banner for README/Bot
+├── requirements.txt    # Python dependencies list
+├── vercel.json         # Vercel deployment settings
+├── .gitignore          # Git exclusion rules
+├── README.md           # Project documentation (with visual)
+├── structure.txt       # This file (project layout)
+├── .env                # BOT_TOKEN (gitignored)
+└── movies/             # Data storage
+    ├── movies.json     # Movie info
+    └── serials/        # Serial info
+        └── movies.json # Episode info
