@@ -40,8 +40,9 @@ async def on_startup():
     if BASE_URL:
         webhook_url = f"{BASE_URL}{WEBHOOK_PATH}"
         await bot.set_webhook(url=webhook_url)
+        print(f"Webhook set to: {webhook_url}")
     else:
-        await bot.delete_webhook()
+        print("BASE_URL not found, skipping webhook setup.")
 
 @dp.message(Command("start"))
 async def start_handler(message: Message):
