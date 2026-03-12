@@ -11,4 +11,3 @@ python-multipart>=0.0.6
 
 # Utility
 certifi>=2024.0.0
-pathlib>=1.0.1
