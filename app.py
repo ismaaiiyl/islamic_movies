@@ -26,9 +26,12 @@ BASE_URL = os.getenv("BASE_URL")  # Render/Vercel bergan URL manzili
 
 @app.post(WEBHOOK_PATH)
 async def bot_webhook(request: Request):
-    update = await request.json()
-    telegram_update = Update(**update)
-    await dp.feed_update(bot=bot, update=telegram_update)
+    try:
+        update_data = await request.json()
+        update = Update.model_validate(update_data, context={"bot": bot})
+        await dp.feed_update(bot=bot, update=update)
+    except Exception as e:
+        print(f"Update error: {e}")
     return {"status": "ok"}
 
 @app.get("/")
@@ -39,7 +42,10 @@ async def index():
 async def on_startup():
     if BASE_URL:
         webhook_url = f"{BASE_URL}{WEBHOOK_PATH}"
-        await bot.set_webhook(url=webhook_url)
+        await bot.set_webhook(
+            url=webhook_url,
+            allowed_updates=["message", "callback_query", "inline_query"]
+        )
         print(f"Webhook set to: {webhook_url}")
     else:
         print("BASE_URL not found, skipping webhook setup.")
