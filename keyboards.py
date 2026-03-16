@@ -92,4 +92,14 @@ def serial_parts_keyboard(serial_id: int, part_page: int = 0, serial_page: int =
         back_callback=f"serial_back_{serial_page}"
     )
 
+# Boshqa botlar uchun klaviatura
+def other_bots_keyboard():
+    builder = InlineKeyboardBuilder()
+    # Bu yerga o'zingizning boshqa botlaringiz linkini yozishingiz mumkin
+    builder.button(text="📖 Qur'on Oyatlar Boti", url="https://t.me/UzbQuronBot")
+    builder.button(text="✨ Islomiy Duolar Boti", url="https://t.me/islomiy_duolar_bot")
+    
+    builder.adjust(2)# Har bir qatorda 1 tadan tugma
+    return builder.as_markup()
+
 

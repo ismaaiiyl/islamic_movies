@@ -1,24 +1,39 @@
 import asyncio
+import os
 from config import BOT_TOKEN
-from keyboards import main_menu, movies_inline_keyboard , serials_inline_keyboard , serial_parts_keyboard
+from keyboards import main_menu, movies_inline_keyboard , serials_inline_keyboard , serial_parts_keyboard, other_bots_keyboard
 from aiogram import Dispatcher , Bot ,F
 from aiogram.filters import Command
 from aiogram.types import Message , CallbackQuery, Update
 from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
 from services import get_movie_by_id , get_serial_by_id , get_serial_part , load_movies , load_serials
-
 from fastapi import FastAPI, Request
-import os
+
+from contextlib import asynccontextmanager
 
 bot = Bot(
     token=BOT_TOKEN,
     default=DefaultBotProperties(parse_mode=ParseMode.HTML)
 )
 dp = Dispatcher()
+print(f"DEBUG: Dispatcher yaratildi ID: {id(dp)}")
+
+# FastAPI uchun lifespan (startup/shutdown o'rniga)
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    if BASE_URL:
+        webhook_url = f"{BASE_URL}{WEBHOOK_PATH}"
+        await bot.set_webhook(
+            url=webhook_url,
+            allowed_updates=["message", "callback_query", "inline_query"]
+        )
+        print(f"Webhook set to: {webhook_url}")
+    yield
+    await bot.session.close()
 
 # FastAPI obyektini yaratish
-app = FastAPI()
+app = FastAPI(lifespan=lifespan)
 
 # Webhook manzillarini sozlash (agar serverda bo'lsa)
 WEBHOOK_PATH = f"/bot/{BOT_TOKEN}"
@@ -38,20 +53,11 @@ async def bot_webhook(request: Request):
 async def index():
     return {"status": "Bot is running..."}
 
-@app.on_event("startup")
-async def on_startup():
-    if BASE_URL:
-        webhook_url = f"{BASE_URL}{WEBHOOK_PATH}"
-        await bot.set_webhook(
-            url=webhook_url,
-            allowed_updates=["message", "callback_query", "inline_query"]
-        )
-        print(f"Webhook set to: {webhook_url}")
-    else:
-        print("BASE_URL not found, skipping webhook setup.")
+# Avvalgi on_event o'chirildi, uning o'rniga yuqoridagi lifespan ishlaydi
 
 @dp.message(Command("start"))
 async def start_handler(message: Message):
+    print(f"[LOG] /start keldi ID: {message.message_id} | User: {message.from_user.id} | PID: {os.getpid()}")
     user_id = message.from_user.id
     first_name = message.from_user.full_name
     
@@ -67,6 +73,17 @@ async def start_handler(message: Message):
     )
 
     await message.answer(welcome_text, reply_markup=main_menu)
+    
+    # Ikkinchi xabar: Bot haqida va foydali linklar
+    about_text = (
+        f"<b>Bot haqida qisqacha:</b>\n"
+        f"────────────────────\n"
+        f"Ushbu bot sizga islomiy ma'rifat ulashish maqsadida yaratilgan. "
+        f"Barcha videolar ochiq manbalardan olingan.\n\n"
+        f"🌟 <b>Bizning boshqa foydali loyihalarimiz:</b>"
+    )
+    
+    await message.answer(about_text, reply_markup=other_bots_keyboard())
 
 @dp.message(Command("help"))
 async def help_handler(message: Message):
@@ -75,12 +92,13 @@ async def help_handler(message: Message):
         "────────────────────\n"
         "Botdan samarali foydalanish uchun buyruqlar:\n\n"
         "💠 /start - <i>Botni ishga tushirish</i>\n"
-        "📂 /movies - <i>Barcha kontent ro'yxati</i>\n"
+        "📂 /movies - <i>Barcha kino va seriallar ro'yxati</i>\n"
         "❓ /help - <i>Yordam olish</i>\n\n"
         "<b>Qo'llanma:</b>\n"
         "1. Menyu orqali bo'limni tanlang.\n"
         "2. Ro'yxatdan o'zingizga yoqqan kinoni raqamini bosing.\n"
-        "3. Video va uning tavsifi sizga yuboriladi.\n"
+        "3. Video va uning tavsifi sizga yuboriladi.\n\n"
+        "Bot bilan bog'liq xatolarni yoki takliflaringizni @asking_robot manziliga yuborishingiz mumkin.\n"
         "────────────────────\n"
         "😊 <i>Maroqli hordiq tilaymiz!</i>"
     )
@@ -252,6 +270,9 @@ async def send_serial_part(callback: CallbackQuery):
 
 @dp.message()
 async def search_by_title_handler(message: Message):
+    # Buyruqlarni (masalan /start) bu handlerda o'tkazib yubormaslik uchun
+    if message.text and message.text.startswith("/"):
+        return
     text = message.text.strip()
     
     # 1. Kinolardan qidirish
@@ -288,6 +309,9 @@ async def search_by_title_handler(message: Message):
     )
 
 async def run_polling():
+    # Webhookni o'chirish (Polling ishlashi uchun shart)
+    await bot.delete_webhook(drop_pending_updates=True)
+    print("Eski yangilanishlar tozalandi va Polling ishga tushdi.")
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
