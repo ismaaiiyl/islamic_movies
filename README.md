@@ -87,5 +87,24 @@ Ushbu bot **Webhook** orqali ishlashga tayyorlangan. Deploy qilganingizda, quyid
 Agar biron bir taklif yoki savolingiz bo'lsa, Telegram orqali bog'lanishingiz mumkin.
 
 Maroqli hordiq tilaymiz! 😊
-# islamic_movies
+
+
+
+
+
+## Telegram Bot
 https://t.me/islomiy_kinolar_bot
+
+## Keywords
+Islamic Movies Telegram Bot
+Islomiy Kinolar
+Islamiy Kinolar Bot
+Muslim Movies
+o'zbekcha kinolar
+ozbekcha islomiy kinolar
+Uzbek Telegram Bot
+Islomiy filmlar
+Islomiy seriallar
+Islomiy kinolar
+Islomiy kino
+O'zbekcha Islomiy kinolar
