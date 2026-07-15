@@ -88,3 +88,4 @@ Agar biron bir taklif yoki savolingiz bo'lsa, Telegram orqali bog'lanishingiz mu
 
 Maroqli hordiq tilaymiz! 😊
 # islamic_movies
+t.me/islomiy_kinolar_bot
