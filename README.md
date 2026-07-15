@@ -89,7 +89,30 @@ Agar biron bir taklif yoki savolingiz bo'lsa, Telegram orqali bog'lanishingiz mu
 Maroqli hordiq tilaymiz! 😊
 
 
+## 🎬 Available Movies
 
+The Telegram bot currently includes the following Islamic movies and series in Uzbek language:
+
+| Movie | Movie |
+|-------|-------|
+| Fath 1453 (2012) | Avliyo |
+| Muqaddas Zamin | Suiqasd (Hayot bin Qays al-Harroniy) |
+| Hasan Basriy | Bishriy Hofiy |
+| Botmagan Quyosh | Oydin Kecha |
+| Ibrohim Ibn Adham | Imom Al-Buxoriy |
+| Abu Bakr As-Siddiq (R.A.) | Payg'ambarlar kinosi |
+| Aziz Mahmud Hudoyi | Robiya |
+| Daniyalik Kelin | Uvays al-Qaroniy |
+| Hasad | Ibrat (2021) |
+| Muhammad Fotih | Ali Samarqandiy |
+| G'ayrat (Abul Vafo) | Samo farzandlari |
+| Payg'ambar oshig'i Hasan | Ka'b ibn Zuhayr |
+| Baxt kimyogari (Imom G'azzoliy) | Abu Turob Naqshbandiy |
+| Adolat Qilichi | G'aroyib kolleksioner |
+| Tutash Qalblar | Islom iymon saltanati |
+| Kapernaum (2018) | Muso alayhissalom va Fir'avn |
+| Mangulikning ikki qirg'og'i | Jannat onalar oyog'i ostida (2024) |
+| 172 kun (2023) | |
 
 
 ## Telegram Bot
